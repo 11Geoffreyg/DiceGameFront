@@ -1,0 +1,11 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 200px;
+  font-weight: bold;
+  input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}

@@ -4,11 +4,11 @@
   padding: 1rem;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.13);
   border: none;
-  background-color: white;
+  background-color: $lightgreen;
   cursor: pointer;
   transition: background-color 0.10s ease-in-out;
   border-radius: 5px;
   &:hover {
-    background-color: $lightgreen;
+    background-color: $green;
   }
 }
