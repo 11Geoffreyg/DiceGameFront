@@ -1,8 +1,8 @@
-// import './TheButton.css';
+import './TheButton.scss';
 
 const TheButton = ({label}) => {
   return (
-    <button className="TheButton">
+    <button className="the-button">
       {label}
     </button>
   );

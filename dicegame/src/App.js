@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './assets/Styles/main.scss'
 
 import TheButton from './components/TheButton/TheButton.js';
 
