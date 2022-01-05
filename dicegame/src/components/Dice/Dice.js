@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import ClassNames from 'classnames'
 
 
 import './Dice.scss';
-
-var classNames = require('classnames');
-
 const Dice = ({diceList}) => {
 
   console.log({diceList});
@@ -12,7 +10,7 @@ const Dice = ({diceList}) => {
   return (
     <div className='dice_list'>
       {diceList.map((i) => (
-        <div key={i} className={classNames("dice", i.status == true ? 'winner' : '')}>
+        <div key={i} className={ClassNames("dice", i.status === true ? 'winner' : '')}>
           <p>{i.number}</p>
         </div>
       ))}
